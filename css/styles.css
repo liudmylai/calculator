@@ -1,0 +1,35 @@
+body {
+    background-color: #CEE5D0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.row>* {
+    padding: 0px;
+}
+
+.calc-form {
+    border: 1px solid gray;
+    background-color: #F3F0D7;
+    width: 250px;
+    margin-top: 50px;
+}
+
+#calc-display {
+    text-align: right;
+    margin: 2px;
+    width: calc(100% - 4px);
+    border: 1px solid gray;
+    background-color: #fff;
+
+}
+
+.calc-btn {
+    width: calc(100% - 4px);
+    margin: 2px;
+    border: 1px solid gray;
+    background-color: #FED2AA;
+}
+
+.calc-btn:hover {
+    background-color: #FFBF86;
+} 
